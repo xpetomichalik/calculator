@@ -1,0 +1,51 @@
+body {
+  font-family: "Bebas Neue", cursive;
+  background: linear-gradient(90deg, #df7937, #4e085f);
+}
+
+h1 {
+  text-align: center;
+  font-size: 55px;
+}
+.container {
+  outline: solid;
+  width: 400px;
+  margin-left: 80vh;
+}
+table {
+  margin: auto;
+}
+
+input[type="text"] {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  width: 240px;
+
+  font-size: 24px;
+  text-align: right;
+  font-family: "Bebas Neue", cursive;
+}
+
+button {
+  display: block;
+  margin: 5px;
+  padding: 10px;
+  font-size: 27px;
+  font-family: "Bebas Neue", cursive;
+  width: 55px;
+  height: 55px;
+  border-radius: 10px;
+  border: none;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ccc;
+}
+
+button:active {
+  background-color: #aaa;
+}
